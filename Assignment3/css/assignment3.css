@@ -1,0 +1,16 @@
+  body {
+   background-color: #b3d9ff;
+   margin: 0px;
+  }
+  li:nth-child(even) {
+    background: red
+  }
+  li:nth-child(odd) {
+    background: green
+  }
+  li:first-child {
+    background-color: black;
+  }
+  li:last-child {
+    background: yellow;
+  }
