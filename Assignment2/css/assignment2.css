@@ -5,3 +5,11 @@
   background-color: #000000;
   transform: translate(-50%, -50%);
 }
+
+form {
+  padding: 10px;
+}
+
+#submission {
+  text-align: center;
+}
