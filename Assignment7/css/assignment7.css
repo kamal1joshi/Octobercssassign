@@ -21,7 +21,7 @@
   .section {
     position: absolute;
     top: 25px;
-    right: 220px;
+    right: 200px;
     z-index: 999;
     color: white;
   }
@@ -29,7 +29,7 @@
   .child {
     position: absolute;
     background-color: #00b3b3;
-    padding: 0 20px 0 20px;
+    padding: 0 15px 0 15px;
     opacity: 70%;
     width: max-content;
   }
@@ -86,7 +86,6 @@
   }
   
   .dropdown-content {
-    display: none;
     position: absolute;
     background-color: #f9f9f9;
     min-width: 117px;
@@ -108,6 +107,21 @@
   
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .navbar ul > li {
+    list-style-type: none;
+  }
+
+  .navbar ul div {
+    max-height: 0;
+    overflow: hidden;
+    -webkit-transition: max-height 0.2s ease-in;
+    transition: max-height 0.2s ease-in;
+  }
+
+  .navbar ul li:hover > div {
+    max-height: 150px;
   }
 
   p.text {
